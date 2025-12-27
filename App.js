@@ -1,5 +1,7 @@
 import { StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native';
 import Home from './src/screens/Home.js'
+import Login from './src/screens/Login.js'
+import Register from './src/screens/Register.js'
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
@@ -9,7 +11,8 @@ function App() {
 
   return (
     <SafeAreaProvider>
-      <Home />
+      {/* <Login /> */}
+      <Register />
     </SafeAreaProvider>
   );
 }
