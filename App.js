@@ -2,6 +2,8 @@ import { StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native'
 import Home from './src/screens/Home.js'
 import Login from './src/screens/Login.js'
 import Register from './src/screens/Register.js'
+import Paper from './src/screens/Paper.js'
+import AxiosPage from './src/screens/AxiosPage.js'
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
@@ -12,7 +14,9 @@ function App() {
   return (
     <SafeAreaProvider>
       {/* <Login /> */}
-      <Register />
+      {/* <Register /> */}
+      {/* <Paper/> */}
+      <AxiosPage/>
     </SafeAreaProvider>
   );
 }
