@@ -4,6 +4,7 @@ import Login from './src/screens/Login.js'
 import Register from './src/screens/Register.js'
 import Paper from './src/screens/Paper.js'
 import AxiosPage from './src/screens/AxiosPage.js'
+import CardComponent from './src/component/CardComponent.js'
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
@@ -14,9 +15,10 @@ function App() {
   return (
     <SafeAreaProvider>
       {/* <Login /> */}
+      <CardComponent/>
       {/* <Register /> */}
       {/* <Paper/> */}
-      <AxiosPage/>
+      {/* <AxiosPage/> */}
     </SafeAreaProvider>
   );
 }
